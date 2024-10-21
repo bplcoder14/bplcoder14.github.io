@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./../assets/styles/components/Footer.module.css";
 
 function Footer() {
   return (
-    <div class="fixed-bottom">
+    <div className={styles.footer}>
       <figure class="text-center">
         <blockquote class="blockquote">
           <p>It always seems impossible until it's done</p>
