@@ -1,73 +1,75 @@
 import React from "react";
+import styles from "./../assets/styles/pages/About.module.css";
 
 function About() {
   return (
-    <div>
-      <header>
+    <div className={styles.body}>
+      <section className={styles.header}>
         <h1>About Me</h1>
-        <h2>Your Tagline or Motto Here</h2>
-      </header>
+      </section>
 
-      <section id="personal-introduction">
+      <section className={styles.section}>
         <h3>Personal Introduction</h3>
-        <p>Hi! I'm [Your Name], a [Your Profession/Passion].</p>
+        <p>Hi! I'm Braiden Larson, a student at the University of Nebraska-Lincoln.</p>
       </section>
 
-      <section id="background">
-        <h3>Background</h3>
-        <p>Brief overview of your upbringing.</p>
-        <p>Educational background.</p>
-        <p>Key experiences that shaped you.</p>
-      </section>
-
-      <section id="professional-journey">
-        <h3>Professional Journey</h3>
-        <p>Overview of your career path.</p>
-        <p>Key roles and responsibilities.</p>
-        <p>Notable achievements.</p>
-        <p>Current position and what you do now.</p>
-      </section>
-
-      <section id="passions-interests">
+      <section className={styles.section}>
         <h3>Passions and Interests</h3>
         <ul>
-          <li>Hobby 1</li>
-          <li>Hobby 2</li>
-          <li>Hobby 3</li>
+          <li>Video Games</li>
+          <li>Airsoft</li>
+          <li>Programming</li>
+          <li>Learning</li>
+          <li>Helping out the Community</li>
         </ul>
       </section>
 
-      <section id="values-beliefs">
-        <h3>Values and Beliefs</h3>
-        <p>Your core values and guiding philosophies.</p>
-      </section>
-
-      <section id="fun-facts">
+      <section className={styles.section}>
         <h3>Fun Facts</h3>
         <ul>
-          <li>Fun fact 1</li>
-          <li>Fun fact 2</li>
-          <li>Fun fact 3</li>
+          <li>I a big fan of linux and the freedom it gives to users.</li>
+          <li>I like pineapple on pizza.</li>
+          <li>I am a night owl.</li>
         </ul>
       </section>
 
-      <section id="goals-aspirations">
+      <section className={styles.section}>
         <h3>Goals and Aspirations</h3>
-        <p>Short-term and long-term goals.</p>
+        <div className={styles.descriptive_list}>
+          <h5>Short-term goals</h5>
+          <div className={styles.list_item}>
+            <dl>
+              <dt>Get an intership or summer job related to software engineering.</dt>
+              <dd>I have limited experience in the software industry, and securing an internship or job would provide valuable hands-on learning that a classroom setting cannot offer. Additionally, the Software Engineering program at UNL requires students to complete an internship to graduate.</dd>
+            </dl>
+          </div>
+        </div>
+        <div className={styles.descriptive_list}>
+          <h5>Long-term goals</h5>
+          <div className={styles.list_item}>
+            <dl>
+              <dt>Graduate from the University of Nebraska-Lincoln with a degree in Software Engineering.</dt>
+              <dd>I have been passionate about the software industry for some time and enjoy solving problems, which led me to pursue a degree in Software Engineering at UNL. This degree will help build a solid foundation for my career in the field.</dd>
+            </dl>
+          </div>
+        </div>
+        <div className={styles.descriptive_list}>
+          <h5>Aspirations for the future</h5>
+          <div className={styles.list_item}>
+            <dl>
+              <dt>Work at a tech company that puts its users first.</dt>
+              <dd>I have a deep passion for technology, and working as a Software Engineer for a tech company would be a dream come true. However, it’s essential for me to be part of an organization that truly values its users. A significant part of my love for technology stems from its potential to improve people’s lives and solve real-world problems. I aspire to contribute to projects that prioritize user needs and enhance everyday experiences through innovative solutions.</dd>
+            </dl>
+          </div>
+        </div>
       </section>
 
-      <section id="personal-touch">
-        <h3>Personal Touch</h3>
-        <p>A brief personal story or experience.</p>
-      </section>
-
-      <section id="call-to-action">
+      <section className={styles.section}>
         <h3>Connect with Me</h3>
         <p>Feel free to connect with me on social media:</p>
         <ul>
-          <li><a href="https://twitter.com/yourprofile">Twitter</a></li>
-          <li><a href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
-          <li><a href="mailto:youremail@example.com">Email</a></li>
+          <li>LinkedIn: <a href="www.linkedin.com/in/braiden-larson-6b759724b">www.linkedin.com/in/braiden-larson-6b759724b</a></li>
+          <li>Email: <a href="mailto:bplcoder14@gmail.com">bplcoder14@gmail.com</a></li>
         </ul>
       </section>
     </div>
