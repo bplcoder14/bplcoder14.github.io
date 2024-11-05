@@ -7,10 +7,10 @@ function Footer() {
       <h4 class="text-center">Quote of the week</h4>
       <figure class="text-center">
         <blockquote class="blockquote">
-          <p>It always seems impossible until it's done</p>
+          <p>Perseverance is failing 19 times and succeeding the 20th</p>
         </blockquote>
         <figcaption class="blockquote-footer">
-          <cite title="Source Title">Nelson Mandela</cite>
+          <cite title="Source Title">Julie Andrews</cite>
         </figcaption>
       </figure>
     </div>
